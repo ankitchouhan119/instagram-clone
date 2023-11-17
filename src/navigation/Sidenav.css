@@ -1,0 +1,133 @@
+.sidenav_logo{
+   width: 120px;
+   margin: 25px;
+   /* height: 2.5rem; */
+   cursor: pointer;
+}
+@media (max-width: 1600px){
+
+    .sidenav_instaicon{
+        display: none;
+    }
+} 
+.sidenav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    /* border: 2px solid red; */
+}
+.sidenav_btns{
+    flex-direction: column;
+    display: flex;
+
+}
+
+.side_btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    width: 100%;
+}
+
+.side_btn:hover{
+cursor: pointer;
+background-color: rgba(255,255, 255, 0.128);
+border-radius: 10px;
+}
+
+.side_btn > span{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.sidenave_more{
+    position: fixed;
+    bottom: 3px;
+}
+
+.logout_btn{
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #f60800;
+    /* background-color: rgba(255,255,255,0.211); */
+    background: none;
+    padding: 10px;
+    border: 0;
+
+}
+
+.logout_btn:hover{
+    cursor: pointer;
+    color: white;
+}
+.profile_btn:hover{
+    background: none !important;
+
+}
+.profile_btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    .side_btn > span{
+        display: none;
+    }
+}
+@media (max-width: 1075px){
+    .side_btn > span{
+        display: none;
+    }
+}
+@media (max-width: 1200px){
+    .side_btn > span{
+        /* display: none; */
+    }
+    .side_btn > span{
+        font-size: 15px;
+        font-weight: bolder;
+        margin-left: 10px;
+    }
+  
+    .insta_logo > img{
+        display: none;
+    }
+    .sidenav_instaicon{
+        display: block !important;
+        width: 50px;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        cursor: pointer;
+    }
+    .side_btn:hover{
+        cursor: pointer;
+        /* background-color: rgba(255,255, 255, 0.128); */
+        border-radius: 10px;
+        background: none;
+        /* border: 2px solid red; */
+        
+        }
+}
+
+.insta_icon{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    font-size: 2.5rem !important;
+    display: none !important;
+}

@@ -1,0 +1,20 @@
+.homepage{
+    display: flex;
+    flex-direction: row;
+}
+
+.homepage_nav{
+    flex:0.2;
+    border-right: 1px solid gray;
+
+}
+.homepage_timeline{
+    flex: 0.8;
+}
+@media (max-width: 1200px){
+    .homepage_nav{
+        /* flex:0.2; */
+        border-right: 0;
+    
+    }
+}
